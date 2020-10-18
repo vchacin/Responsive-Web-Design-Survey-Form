@@ -1,0 +1,66 @@
+#title{
+    color: white;
+    text-align: center;
+    padding: 50px 0 0 0;
+    font-weight: 90;
+}
+
+#description{
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 0 0 20px 0;
+    font-weight: 90;
+}
+
+#survey-form{
+    color: white;
+    z-index : 1;
+    background-color: #01588E;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 30px 50px 30px
+}
+
+
+#main{
+     background-image: url("https://static01.nyt.com/images/2020/03/13/fashion/13workathome/13workathome-jumbo.jpg?quality=90&auto=webp");
+     background-repeat: no-repeat;
+      background-size: cover;
+     font-family: Arial;
+     font-weight: bold;
+}
+
+#name{
+    width: 95%;
+    padding: 10px 10px 10px 10px
+}
+
+#email{
+    width: 95%;
+    padding: 10px 10px 10px 10px
+}
+
+#number{
+    width: 95%;
+    padding: 10px 10px 10px 10px
+}
+
+#improve{
+    width: 100%;
+}
+
+#comment{
+    width: 95%;
+    height:90px;
+    padding: 0px 10px 100px 10px
+    font-family: Arial;
+}
+
+#submit{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: #37AF65;
+}
