@@ -1,0 +1,56 @@
+<!doctype html>
+    <div id="main">
+        <head>
+            <h1 id="title">FreeCodeCamp Survey Form</h1>
+            <link rel="stylesheet" href="style.css">
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </head>
+        <body>
+            <div>
+            <form id="survey-form">
+                    <label id="name-label" for="name">Name:</label><br><br>
+                        <input type="text" id="name" name="name" size="20" Maxlength="20" required placeholder="Enter your name"><label id="name-label"></label><br><br>
+                    <label id="email-label" for="email">Email:</label><br><br>
+                        <input type="email" id="email"name="email_control" required placeholder="Enter your Email"><label id="email-label"></label><br><br>
+                    <label id="number-label" for="age">Age:</label><br><br>
+                        <input type="number" id="number" name="number_control" min="10" max="99" value="0" placeholder="Age"/><br><br>
+                    <label>Would you recommend freeCodeCamp to a friend?</label><br><br>
+                        <input type="radio" name="recommend" value="1">Definitely<br>
+                        <input type="radio" name="recommend" value="2">Maybe<br>
+                        <input type="radio" name="recommend" value="3">Not sure<br><br>
+                    <label>Which option best describes your current role?</label><br><br>
+                        <select id="dropdown" name="role">
+                            <option disabled value>Select an option</option>
+                            <option name="role" value="Student">Student</option>
+                            <option name="role" value="Full Time Job">Full Time Job</option>
+                            <option name="role" value="Full Time Learner">Full Time Learner</option>
+                            <option name="role" value="Prefer not to say">Prefer not to say</option>
+                            <option name="role" value="Other">Other</option>
+                        </select><br><br>
+                    <label>What is your favorite feature of freeCodeCamp?</label><br><br>
+                        <select id="dropdown" name="feature">
+                            <option disabled value>Select an option</option>
+                            <option name="feature" value="1">Challenges</option>
+                            <option name="feature" value="2">Projects</option>
+                            <option name="feature" value="3">Community</option>
+                            <option name="feature" value="4">Open Source</option>
+                        </select><br><br>
+                    <label>What would you like to see improved? (Check all that apply)</label><br><br>
+                            <input type="checkbox" name="improve" value="Front-end Projects">Front-end Projects<br>
+                            <input type="checkbox" name="improve" value="Back-end Projects">Back-end Projects<br>
+                            <input type="checkbox" name="improve" value="Data Visualization">Data Visualization<br>
+                            <input type="checkbox" name="improve" value="Challenges">Challenges<br>
+                            <input type="checkbox" name="improve" value="Open Source Community">Open Source Community<br>
+                            <input type="checkbox" name="improve" value="Gitter help rooms">Gitter help rooms<br>
+                            <input type="checkbox" name="improve" value="Videos">Videos<br>
+                            <input type="checkbox" name="improve" value="City Meetups">City Meetups<br>
+                            <input type="checkbox" name="improve" value="Wiki">Wiki<br>
+                            <input type="checkbox" name="improve" value="Forum">Forum<br>
+                            <input type="checkbox" name="improve" value="Additional Courses" type="checkbox">Additional Courses<br><br><br>
+                    <label>Any comments or suggestions?</label><br><br>
+                    <textarea id="comment" placeholder="Enter your comment here..."></textarea><br><br>
+                    <input type="submit" id="submit" value="Submit">
+            </form>
+            </div>
+        </body>
+    </div>
